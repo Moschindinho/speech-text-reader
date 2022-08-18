@@ -84,8 +84,8 @@ function getVoices() {
     });
 }
 
-speechSynthesis.addEventListener("voiceschanged", getVoice);
-getVoice();
+speechSynthesis.addEventListener("voiceschanged", getVoices);
+getVoices();
 
 toggleBtn.addEventListener("click",() =>
 document.getElementById("text-box").classList.toggle("show"));

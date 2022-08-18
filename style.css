@@ -71,6 +71,8 @@ select:focus{
     margin: 15px 0;
     width: 100%;
     height: 150px;
+    resize: none;
+
 }
 .text-box .btn{
     position: absolute;
@@ -82,7 +84,7 @@ select:focus{
     text-align: right;
     cursor: pointer;
 }
-.main{
+main{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
